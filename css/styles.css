@@ -331,10 +331,15 @@ body {
   cursor: pointer;
   border-radius: 50%;
   border: 1px solid rgba(0, 0, 0, 0.1);
+  color: #000000;
   background-color: #fff;
-  transition-property: box-shadow;
+  transition-property: color, box-shadow;
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.icon-close {
+  fill: currentColor;
 }
 
 .close-button:hover,
