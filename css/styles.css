@@ -465,6 +465,15 @@ body {
   fill: transparent;
 }
 
+.modal-checkbox:hover + .modal-check svg {
+  background-color: var(--ineractive-color);
+  border: none;
+}
+
+.modal-checkbox:hover + .modal-check svg {
+  fill: #ffffff;
+}
+
 .modal-checkbox:checked + .modal-check svg {
   background-color: var(--ineractive-color);
   border: none;
@@ -965,11 +974,13 @@ body {
 }
 
 .footer-btn {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
   margin-left: 12px;
   min-width: 200px;
   height: 50px;
-  align-items: center;
-  text-align: center;
   cursor: pointer;
   font-weight: 700;
   font-size: 16px;
@@ -991,7 +1002,7 @@ body {
 }
 
 .footer-icon-send {
-  margin-left: 10%;
+  margin-left: 10px;
 }
 
 /* -------------------- */
