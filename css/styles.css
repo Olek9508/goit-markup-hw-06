@@ -491,7 +491,7 @@ body {
 }
 
 .modal-checkbox-custom {
-  visibility: visible;
+  visibility: hidden;
 }
 
 .checkbox-terms {
