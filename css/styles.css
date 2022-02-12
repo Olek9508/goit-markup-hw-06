@@ -468,14 +468,14 @@ body {
   fill: transparent;
 }
 
-/* .modal-checkbox-custom:focus + .modal-check svg {
+.modal-checkbox-custom:focus + .modal-check svg {
   background-color: var(--ineractive-color);
   border: none;
 }
 
 .modal-checkbox-custom:focus + .modal-check svg {
   fill: #ffffff;
-} */
+}
 
 .modal-checkbox-custom:checked + .modal-check svg {
   background-color: var(--ineractive-color);
