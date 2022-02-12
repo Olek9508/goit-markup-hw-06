@@ -468,13 +468,11 @@ body {
   fill: transparent;
 }
 
-.modal-checkbox-custom:hover + .modal-check svg,
 .modal-checkbox-custom:focus + .modal-check svg {
   background-color: var(--ineractive-color);
   border: none;
 }
 
-.modal-checkbox-custom:hover + .modal-check svg,
 .modal-checkbox-custom:focus + .modal-check svg {
   fill: #ffffff;
 }
@@ -486,6 +484,10 @@ body {
 
 .modal-checkbox-custom:checked + .modal-check svg {
   fill: #ffffff;
+}
+
+.modal-checkbox-custom {
+  visibility: hidden;
 }
 
 .checkbox-terms {
