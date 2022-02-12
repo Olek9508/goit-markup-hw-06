@@ -486,8 +486,12 @@ body {
   fill: #ffffff;
 }
 
+.modal-checkbox-custom:focus + .modal-check svg {
+  visibility: visible;
+}
+
 .modal-checkbox-custom {
-  visibility: hidden;
+  visibility: visible;
 }
 
 .checkbox-terms {
