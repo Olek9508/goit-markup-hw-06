@@ -469,7 +469,7 @@ body {
 }
 
 .modal-checkbox-custom:focus + .modal-check svg {
-  outline: 1px solid black;
+  outline: 1px solid var(--ineractive-color);
 }
 
 .modal-checkbox-custom:checked + .modal-check svg {
